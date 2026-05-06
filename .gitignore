@@ -1,2 +1,9 @@
 __pycache__/
 *.py[cod]
+
+# Local copy of the upstream Wapuu repository.
+third_party/
+
+# Local scratch space.
+work/
+tmp/

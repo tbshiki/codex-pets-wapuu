@@ -1,0 +1,16 @@
+Codex Pets Wapuu
+
+This repository packages Wapuu as a Codex-compatible pet.
+
+Wapuu is copyright カネウチカズコさん (Kazuko Kaneuchi).
+
+The Wapuu source artwork used by this repository comes from:
+
+https://github.com/jawordpressorg/wapuu
+
+Source commit:
+
+b5836525649270dd942012dfe526c435be97618b
+
+The original Wapuu artwork is distributed under the GNU General Public License.
+See LICENSE.txt and LICENSE-ja.txt.

@@ -15,7 +15,10 @@ upstream repository. If it is missing, fetch it with:
 
 ```powershell
 git clone https://github.com/jawordpressorg/wapuu.git .\third_party\wapuu
+git -C .\third_party\wapuu checkout b5836525649270dd942012dfe526c435be97618b
 ```
+
+Recorded upstream source commit: `b5836525649270dd942012dfe526c435be97618b`.
 
 The generated pet package is written to:
 

@@ -11,6 +11,8 @@ from PIL import Image
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "third_party" / "wapuu" / "wapuu-original" / "wapuu-original.png"
 OUT_DIR = ROOT / "pets" / "wapuu"
+WAPUU_SOURCE_REPO = "https://github.com/jawordpressorg/wapuu"
+WAPUU_SOURCE_COMMIT = "b5836525649270dd942012dfe526c435be97618b"
 CELL_W = 192
 CELL_H = 208
 COLS = 8
@@ -186,7 +188,7 @@ def main() -> None:
         ],
     )
 
-    # 7 running/loading: active loop, leaning the left hand toward the W ball.
+    # 7 running/loading: conservative active loop without local hand redrawing.
     fill_row(
         atlas,
         7,
@@ -231,7 +233,8 @@ def main() -> None:
 
     notice = (
         "This pet reuses the Wapuu source art from jawordpressorg/wapuu under GPL-2.0.\n"
-        "Source: https://github.com/jawordpressorg/wapuu\n"
+        f"Source: {WAPUU_SOURCE_REPO}\n"
+        f"Source commit: {WAPUU_SOURCE_COMMIT}\n"
         "See third_party/wapuu/LICENSE.txt and third_party/wapuu/LICENSE-ja.txt.\n"
     )
     (OUT_DIR / "NOTICE.txt").write_text(notice, encoding="utf-8")

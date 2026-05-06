@@ -1,3 +1,4 @@
 This pet reuses the Wapuu source art from jawordpressorg/wapuu under GPL-2.0.
 Source: https://github.com/jawordpressorg/wapuu
+Source commit: b5836525649270dd942012dfe526c435be97618b
 See third_party/wapuu/LICENSE.txt and third_party/wapuu/LICENSE-ja.txt.
